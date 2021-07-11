@@ -1,27 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa3361b0e1d69127c8c42fce9955aa64",
+    "revision": "559533a834b5c4ce0e3dbd39678211f4",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "6bfdd2122c4b1edac6c4",
-    "url": "/portfolio/static/css/main.4388c65d.chunk.css"
+    "revision": "3ee2a629612cf4654952",
+    "url": "/portfolio/static/css/main.1a93b4d7.chunk.css"
   },
   {
-    "revision": "954ea927e836c54669df",
-    "url": "/portfolio/static/js/2.a696c588.chunk.js"
+    "revision": "5924cd3e5989816f0fb4",
+    "url": "/portfolio/static/js/2.df23e3e4.chunk.js"
   },
   {
-    "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio/static/js/2.a696c588.chunk.js.LICENSE.txt"
+    "revision": "ccea2db2d8b3fa845702f94d2bad54c8",
+    "url": "/portfolio/static/js/2.df23e3e4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6bfdd2122c4b1edac6c4",
-    "url": "/portfolio/static/js/main.affabf3e.chunk.js"
+    "revision": "3ee2a629612cf4654952",
+    "url": "/portfolio/static/js/main.484edfa4.chunk.js"
   },
   {
     "revision": "83dc2e69eb0b3e275588",
     "url": "/portfolio/static/js/runtime-main.d1aa1646.js"
+  },
+  {
+    "revision": "27be61eecd8fff248c458d7b694694f2",
+    "url": "/portfolio/static/media/BI.27be61ee.png"
+  },
+  {
+    "revision": "644b0452de6bd17e133621c2e725538e",
+    "url": "/portfolio/static/media/ML.644b0452.png"
+  },
+  {
+    "revision": "34c84b625ec15366a2ef282a9fafde37",
+    "url": "/portfolio/static/media/OOP.34c84b62.jpg"
   },
   {
     "revision": "8897aeb643b17c37ab222bf70378423c",
@@ -30,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9730fefc26bb187c4f4bb29b95d82e7a",
     "url": "/portfolio/static/media/Robofriends.9730fefc.webp"
+  },
+  {
+    "revision": "552c3018b14e06fad7e1b4b0dfc2411f",
+    "url": "/portfolio/static/media/TDD.552c3018.png"
   },
   {
     "revision": "14ed07e698c69df6da8744861c0ef7cd",
@@ -88,6 +104,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/django.bcf22073.svg"
   },
   {
+    "revision": "2e0fcd7b793e8353f3e272dc38492020",
+    "url": "/portfolio/static/media/docker.2e0fcd7b.svg"
+  },
+  {
+    "revision": "ff9b4e91c5dbed1695be36294aa657a6",
+    "url": "/portfolio/static/media/docker_compose.ff9b4e91.png"
+  },
+  {
     "revision": "54f84a3f8f20576db2a7c792b5c27fd7",
     "url": "/portfolio/static/media/easyhotel.54f84a3f.webp"
   },
@@ -98,10 +122,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7f8d489c1887554fcf61932505d46393",
     "url": "/portfolio/static/media/firebase-1.7f8d489c.svg"
-  },
-  {
-    "revision": "d98463abd102acdc2b1eb8d5eb70b2d2",
-    "url": "/portfolio/static/media/flask.d98463ab.svg"
   },
   {
     "revision": "bd9fec894dfe707631e11a1dfedb25b5",
@@ -116,12 +136,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/git-icon.1190a19c.svg"
   },
   {
-    "revision": "0555bfb7e81f57a1efe6a53c7490abb7",
-    "url": "/portfolio/static/media/github-api.0555bfb7.svg"
+    "revision": "475c8d36922ab026b45e7db28e023590",
+    "url": "/portfolio/static/media/github-api.475c8d36.svg"
   },
   {
-    "revision": "0ff1a6f08182be4aa63a0b54da1b9e57",
-    "url": "/portfolio/static/media/github.0ff1a6f0.svg"
+    "revision": "567f006b9ca974f343db1c9c79920074",
+    "url": "/portfolio/static/media/github.567f006b.svg"
+  },
+  {
+    "revision": "f2948be7bf211b1b2828c3aef8720a96",
+    "url": "/portfolio/static/media/github_2.f2948be7.svg"
+  },
+  {
+    "revision": "9fbf95ea1a4f6b5dd0bec23d71764d52",
+    "url": "/portfolio/static/media/gitlab.9fbf95ea.svg"
   },
   {
     "revision": "30bd42ea97a2e0454bb1dfbab983eb54",
@@ -148,8 +176,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/javascript.2d2e31cc.svg"
   },
   {
+    "revision": "cfa3a32613483a1ee48fac169aeb6359",
+    "url": "/portfolio/static/media/jest.cfa3a326.png"
+  },
+  {
+    "revision": "fbf149dcc85add80815b2226e40a5192",
+    "url": "/portfolio/static/media/kubernetes.fbf149dc.svg"
+  },
+  {
     "revision": "21203d1aea45e0da2a73f7dd4ff91dd5",
     "url": "/portfolio/static/media/laravel-1.21203d1a.svg"
+  },
+  {
+    "revision": "c01ad0dcf53d84eb3e8eaa08e4453c0d",
+    "url": "/portfolio/static/media/linux.c01ad0dc.svg"
   },
   {
     "revision": "540ea578e37742fb3eeb169f0e785938",
@@ -172,12 +212,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/mern_tip_calc.3ea10fb6.webp"
   },
   {
+    "revision": "ea4e1d80a509fa3d9a377b1a916d5989",
+    "url": "/portfolio/static/media/microsoft_windows.ea4e1d80.svg"
+  },
+  {
     "revision": "2985235df31b8742d893d5b7e80145c5",
     "url": "/portfolio/static/media/mongodb.2985235d.svg"
   },
   {
-    "revision": "54d7bddcd3019ec3c3b23db00160ccef",
-    "url": "/portfolio/static/media/mssql.54d7bddc.svg"
+    "revision": "c3919d0995ec63e251d4fd5853d630fc",
+    "url": "/portfolio/static/media/mysql.c3919d09.svg"
   },
   {
     "revision": "bd44afb179375dda503c48f9321d77ec",
@@ -186,6 +230,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a123152868245dee71c441124a98ac3e",
     "url": "/portfolio/static/media/nodejs.a1231528.svg"
+  },
+  {
+    "revision": "bf6867a89b5220044467107cd85e533a",
+    "url": "/portfolio/static/media/numpy.bf6867a8.svg"
   },
   {
     "revision": "57b16cf0b66516b70a21e015de8ff1d9",
@@ -212,20 +260,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/python.146716bd.svg"
   },
   {
-    "revision": "4328d47f1ae72f92fb28150bafb53797",
-    "url": "/portfolio/static/media/pythonanywhere.4328d47f.svg"
-  },
-  {
-    "revision": "ef194ddf5faf63cb6cc580a4535be695",
-    "url": "/portfolio/static/media/react-bootstrap.ef194ddf.svg"
+    "revision": "2a5335d52070f6ad653a12df2a36fdd2",
+    "url": "/portfolio/static/media/pythonanywhere.2a5335d5.svg"
   },
   {
     "revision": "dd717418f1a83826bb5c57a99ceae268",
     "url": "/portfolio/static/media/react-native-firebase-1.dd717418.svg"
-  },
-  {
-    "revision": "024196716802e272adb3cbefb81fd557",
-    "url": "/portfolio/static/media/react-router.02419671.svg"
   },
   {
     "revision": "4009eef3b3e291f296e71962c70895c5",
@@ -236,12 +276,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/redux.aa0a3376.svg"
   },
   {
-    "revision": "03db7af78dea942ce59bd7f1da69a962",
-    "url": "/portfolio/static/media/sap-2011-logo.03db7af7.svg"
-  },
-  {
     "revision": "b446ca5a397c1ef6fb94cd02c4e94335",
     "url": "/portfolio/static/media/sass-1.b446ca5a.svg"
+  },
+  {
+    "revision": "f0f50003d0e332fe8232c3d685b6b221",
+    "url": "/portfolio/static/media/scikitlearn.f0f50003.png"
   },
   {
     "revision": "8bce7aef886c3872c218e0e6ef8bdccb",
@@ -260,10 +300,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/spring-3.449e8efb.svg"
   },
   {
-    "revision": "9ceedb838144da63d409d778f4245a82",
-    "url": "/portfolio/static/media/styled-components.9ceedb83.svg"
-  },
-  {
     "revision": "74ba2b9c367f7d68236f83aada87fb2e",
     "url": "/portfolio/static/media/swift-15.74ba2b9c.svg"
   },
@@ -272,11 +308,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/tiomanga.4eb3f098.webp"
   },
   {
+    "revision": "04d989ef9e374b567c552137795c96f0",
+    "url": "/portfolio/static/media/travis_ci.04d989ef.svg"
+  },
+  {
     "revision": "3de182d2120823fe49c27eeb1765c53a",
     "url": "/portfolio/static/media/typescript.3de182d2.svg"
   },
   {
     "revision": "f47ef6f3cc6992e0d62d4d08fa50ab43",
     "url": "/portfolio/static/media/vierbeinig.f47ef6f3.webp"
+  },
+  {
+    "revision": "346e12ee28bb0e5f5600d47beb4c7a47",
+    "url": "/portfolio/static/media/vue.346e12ee.svg"
   }
 ]);
