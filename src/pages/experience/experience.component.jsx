@@ -10,7 +10,7 @@ import "./experience.styles.css";
 const Experience = () => {
   return (
     <div id="experience">
-      <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCIA</h1>
+      <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 25 }}>
@@ -21,19 +21,19 @@ const Experience = () => {
               
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center">Grupo ConnectTix SAC - Jornada parcial</Card.Title>
+                  <Card.Title className="text-center">Grupo ConnectTix SAC - Part time</Card.Title>
                 </div>
                 <div>
                   <Card.Text className="text-center style">
-                    <strong className="body-title-style ">Pasante</strong>
+                    <strong className="body-title-style ">Web App Developer</strong>
                     <br />
-                    <strong>Tecnologías:</strong> Django, Python, PostgresSQL, Mercurial
+                    <strong>Technologies:</strong> Django, Python, PostgresSQL, Mercurial
                     <br />
-                    <strong>Duración:</strong> Noviembre 2019 – Febrero 2020
+                    <strong>Duration:</strong> November 2019 – February 2020
                     <br/>
-                    <strong> Descripción </strong>
+                    <strong> Description </strong>
                     <ul className="text-center">
-                      <strong>Desarrollo Backend de un sistema para el control en el transporte de petróleo</strong>
+                      <strong>Backend development of a system for the control of oil transportation</strong>
                       {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
 
                     </ul>
@@ -57,19 +57,19 @@ const Experience = () => {
               
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center">Centro de Investigación de Ingeniería Molecular – CIIM – Jornada parcial</Card.Title>
+                  <Card.Title className="text-center">Centro de Investigación de Ingeniería Molecular – CIIM – Part time</Card.Title>
                 </div>
                 <div>
                   <Card.Text className="text-center style">
-                    <strong className="body-title-style ">Practicante</strong>
+                    <strong className="body-title-style ">Internship</strong>
                     <br />
-                    <strong>Tecnologías:</strong> BioPython, Bash - Shell Scripting, Dambe, MrBayes
+                    <strong>Technologies:</strong> BioPython, Bash - Shell Scripting, Dambe, MrBayes
                     <br />
-                    <strong>Duración:</strong> Agosto 2016 – Enero 2017
+                    <strong>Duration:</strong> August 2016 – January 2017
                     <br/>
-                    <strong> Descripción </strong>
+                    <strong> Description </strong>
                     <ul className="text-center">
-                      <strong>Diseño de árboles filogenéticos usando MrBayes</strong>
+                      <strong>Phylogenetic tree desing using MrBayes </strong>
                       {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
 
                     </ul>

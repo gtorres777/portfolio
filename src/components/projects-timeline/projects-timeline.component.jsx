@@ -54,7 +54,7 @@ import "./projects-timeline.styles.css";
 const TimeLine = () => {
   return (
     <div id="projects">
-      <h1 className="pt-3 text-center font-details-b pb-3">PROYECTOS</h1>
+      <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
         {/* Project: Mapa Covid-19 */}
@@ -74,23 +74,23 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      Detalles
+                      Details
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Descripción:</strong> App móvil que muestra las zonas calientes de
-                        infectados por covid en un mapa.
+                        <strong>Description:</strong> Mobile Application that shows the hot spots
+                        of people infected by COVID-19 on a map.
                         <hr />
-                        <strong>Características:</strong>
+                        <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Autenticación de usuarios mediante integración con Firebase</li>
-                          <li>Mapa para visualizar zonas calientes de infectados por covid</li>
-                          <li>Agregar reportes nuevos de zonas calientes</li>
-                          <li>Listar reportes de una zona determinada del mapa</li>
+                          <li>Users authentication through Firebase integration</li>
+                          <li>Map to view the hot spots of the ones infected by COVID-19</li>
+                          <li>Add reports for new hot spots</li>
+                          <li>List reports for a specific area of the map</li>
                         </ul>
                         <hr />
-                        <strong>Tecnologías usadas:</strong>
+                        <strong>Technologies used:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
@@ -140,7 +140,7 @@ const TimeLine = () => {
                   href="https://gitlab.com/tecsup1/programacion-en-moviles-avanzado/pma-proyectofinal"
                   target="_blank"
                 >
-                  Repositorio
+                  Repository
                 </UrlButton>
                 
               </div>
@@ -165,24 +165,24 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      Detalles
+                      Details
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Descripción:</strong> App móvil que permite reservar
-                         habitaciones de hoteles y servicio al cuarto dependiendo del Hotel.
+                        <strong>Description:</strong>Mobile Application that allows users to book hotel rooms
+                         and room service depending of the hotel.
                         <hr />
-                        <strong>Características:</strong>
+                        <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Autenticación mediante la integración con Firebase</li>
-                          <li>Listar hoteles con sus detalles de cada uno</li>
-                          <li>Reservar habitación de un hotel</li>
-                          <li>Pedir comida o bebidas al cuarto dependiendo del hotel</li>
-                          <li>Uso de Redux</li>
+                          <li>Authentication through the integration with Firebase</li>
+                          <li>List hotels with their details for each one</li>
+                          <li>Book a hotel room</li>
+                          <li>Order food or drinks to the room depending on the hotel</li>
+                          <li>Use of Redux</li>
                         </ul>
                         <hr />
-                        <strong>Tecnologías usadas:</strong>
+                        <strong>Technologies used:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
@@ -239,7 +239,7 @@ const TimeLine = () => {
                   href="https://gitlab.com/tecsup1/aplicaciones-moviles-multiplataforma/dam-exam4"
                   target="_blank"
                 >
-                  Repositorio
+                  Repository
                 </UrlButton>
               </div>
             </div>
@@ -263,24 +263,24 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      Detalles
+                      Details
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Descripción:</strong> Applicación móvil diseñada para 
-                        poder controlar una araña robot que mide la temperatura.
+                        <strong>Description:</strong> Mobile Application designed to be able to
+                        control a spider robot that measures the temperature and humidity.
                         <hr />
-                        <strong>Características:</strong>
+                        <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Controlar un prototipo de araña con partes impresas en 3D</li>
-                          <li>Obtener datos en tiempo real de medición de la temperatura y humedad</li>
-                          <li>Autenticación mediante OAUTH integrada con Django</li>
-                          <li>Generacón de minireportes de temperatura y humedad estableciendo un periodo de tiempo </li>
-                          <li>Hosteado usando PythonAnyWhere </li>
+                          <li>Control the spider robot that is built with 3D printed parts</li>
+                          <li>Get real time temperature and humidity measurement data</li>
+                          <li>Authentication using Oauth integrated with Django</li>
+                          <li>Generation of temperature and humidity reports establishing a period of time</li>
+                          <li>Hosted using PythonAnyWhere </li>
                         </ul>
                         <hr />
-                        <strong>Tecnologías usadas:</strong>
+                        <strong>Technologies used:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
@@ -348,7 +348,7 @@ const TimeLine = () => {
                   href="https://github.com/gtorres777/ADAs-Django"
                   target="_blank"
                 >
-                  Repositorio
+                  Repository
                 </UrlButton>
               </div>
             </div>
@@ -371,28 +371,28 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      Detalles
+                      Details
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Descripción:</strong> Aplicación web para visualizar mangas 
-                        y poder comprar productos relacionados a los mangas.
+                        <strong>Description:</strong> Web Application to see mangas and to be able to
+                        buy products related to the mangas seen in the web page.
                         <hr />
-                        <strong>Funcionalidades:</strong>
+                        <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Visualizar Mangas</li>
-                          <li>Mangas clasificados por categorias</li>
-                          <li>Dashboard para la administración de la aplicación web</li>
-                          <li>Pasarela de pago para la tienda implementada</li>
-                          <li>Facilidades para el usuario para gestionar sus preferencias de mangas</li>
-                          <li>Sistema de autenticación</li>
+                          <li>View Mangas</li>
+                          <li>Mangas classified by categories</li>
+                          <li>Dashboard for the administration of the web application</li>
+                          <li>Payment gateway for the store implemented</li>
+                          <li>Facilities for the user to manage their mangas preferences</li>
+                          <li>Authentication system</li>
                           <li>
-                            Hosteado usando AWS 
+                            Hosted using AWS
                           </li>
                         </ul>
                         <hr />
-                        <strong>Tecnologías usadas:</strong>
+                        <strong>Technologies used:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
@@ -457,7 +457,7 @@ const TimeLine = () => {
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Laravel
+                              PHP
                             </span>
                           </li>
                           <li>
@@ -494,7 +494,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton href="https://github.com/gtorres777/DAI_EliteManga" target="_blank">
-                  Repositorio
+                  Repository
                 </UrlButton>
               </div>
             </div>

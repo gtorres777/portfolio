@@ -1,20 +1,20 @@
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_SASS from "../../assets/img/skills/sass-1.svg";
-import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
+// import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_REDUX from "../../assets/img/skills/redux.svg";
-import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
-import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
-import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
+// import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
+// import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
+// import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
+// import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_FLASK from "../../assets/img/skills/flask.svg";
+// import L_FLASK from "../../assets/img/skills/flask.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
-import L_MSSQL from "../../assets/img/skills/mssql.svg";
+// import L_MSSQL from "../../assets/img/skills/mssql.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
@@ -30,6 +30,17 @@ import L_ANGULAR from "../../assets/img/skills/angular-icon-1.svg";
 import L_FLUTTER from "../../assets/img/skills/flutter-logo.svg";
 import L_ANDROID from "../../assets/img/skills//android.svg";
 import L_IOS from "../../assets/img/skills/ios-2.svg";
+import L_VUE from "../../assets/img/skills/vue.svg";
+
+//CI/CD TOOLS
+import L_DOCKER from "../../assets/img/skills/docker.svg";
+import L_DOCKERCOMPOSE from "../../assets/img/skills/docker_compose.png";
+import L_KUBERNETES from "../../assets/img/skills/kubernetes.svg";
+import L_TRAVISCI from "../../assets/img/skills/travis_ci.svg";
+
+//OS
+import L_LINUX from "../../assets/img/skills/linux.svg";
+import L_WINDOWS from "../../assets/img/skills/microsoft_windows.svg";
 
 //backend
 import L_LARAVEL from "../../assets/img/skills/laravel-1.svg";
@@ -41,20 +52,38 @@ import L_ARDUINO from "../../assets/img/skills/arduino.svg";
 import L_AWS from "../../assets/img/skills/aws.svg";
 import L_PYTHONANYWHERE from "../../assets/img/skills/pythonanywhere.svg";
 
+//Version control
+import L_MERCURIAL from "../../assets/img/skills/mercurial.svg";
+import L_GITHUB from "../../assets/img/skills/github_2.svg";
+import L_GITLAB from "../../assets/img/skills/gitlab.svg";
+
+//Data Analytics
+import L_BI from "../../assets/img/skills/BI.png";
+import L_ML from "../../assets/img/skills/ML.png";
+import L_SCIKITLEARN from "../../assets/img/skills/scikitlearn.png";
+import L_NUMPY from "../../assets/img/skills/numpy.svg";
+import L_PANDAS from "../../assets/img/skills/pandas.png";
+
+
 //ERP
-import L_SAP from "../../assets/img/skills/sap-2011-logo.svg";
+// import L_SAP from "../../assets/img/skills/sap-2011-logo.svg";
 
 //Languages
 import L_C from "../../assets/img/skills/c--4.svg";
 import L_JAVA4 from "../../assets/img/skills/java-4.svg";
 import L_SWIFT from "../../assets/img/skills/swift-15.svg";
 import L_PHP from "../../assets/img/skills/php.svg";
+import L_SHELL from "../../assets/img/skills/shell.png";
 
 //DB
 import L_FIREBASE from "../../assets/img/skills/firebase-1.svg";
+import L_MYSQL from "../../assets/img/skills/mysql.svg";
 
-//Version control
-import L_MERCURIAL from "../../assets/img/skills/mercurial.svg";
+//Testing & Clean Code
+import L_JEST from "../../assets/img/skills/jest.png";
+import L_TDD from "../../assets/img/skills/TDD.png";
+import L_OOP from "../../assets/img/skills/OOP.jpg";
+import L_SOLID from "../../assets/img/skills/SOLID.png";
 
 export const skills = {
   frontend: [
@@ -83,66 +112,66 @@ export const skills = {
       imgSrc: L_SASS,
       skillName: "Sass",
     },
-    {
-      link: "https://getbootstrap.com/",
-      imgAltText: "Bootstrap",
-      imgSrc: L_BOOTSTRAP,
-      skillName: "Bootstrap",
-    },
+    // {
+    //   link: "https://getbootstrap.com/",
+    //   imgAltText: "Bootstrap",
+    //   imgSrc: L_BOOTSTRAP,
+    //   skillName: "Bootstrap",
+    // },
     {
       link: "https://reactjs.org/",
       imgAltText: "React JS",
       imgSrc: L_REACT,
       skillName: "React JS",
     },
-    {
-      link: "https://redux.js.org/",
-      imgAltText: "Redux",
-      imgSrc: L_REDUX,
-      skillName: "Redux",
-    },
-    {
-      link: "https://reacttraining.com/react-router/",
-      imgAltText: "React Router",
-      imgSrc: L_REACT_ROUTER,
-      skillName: "React Router",
-    },
+    // {
+    //   link: "https://redux.js.org/",
+    //   imgAltText: "Redux",
+    //   imgSrc: L_REDUX,
+    //   skillName: "Redux",
+    // },
+    // {
+    //   link: "https://reacttraining.com/react-router/",
+    //   imgAltText: "React Router",
+    //   imgSrc: L_REACT_ROUTER,
+    //   skillName: "React Router",
+    // },
     {
       link: "https://reactnative.dev/",
       imgAltText: "React Native",
       imgSrc: L_REACTNATIVE,
       skillName: "React Native",
     },
-    {
-      link: "https://material-ui.com/",
-      imgAltText: "Material-UI",
-      imgSrc: L_MATERIALUI,
-      skillName: "Material-UI",
-    },
-    {
-      link: "https://react-bootstrap.github.io/",
-      imgAltText: "React Bootstrap",
-      imgSrc: L_REACT_BOOTSTRAP,
-      skillName: "React Bootstrap",
-    },
-    {
-      link: "https://styled-components.com/",
-      imgAltText: "styled-components",
-      imgSrc: L_STYLED_COMPONENTS,
-      skillName: "styled-components",
-    },
-    {
-      link: "https://angular.io/",
-      imgAltText: "angular",
-      imgSrc: L_ANGULAR,
-      skillName: "Angular",
-    },
-    {
-      link: "https://flutter.dev/",
-      imgAltText: "Flutter",
-      imgSrc: L_FLUTTER,
-      skillName: "Flutter",
-    },
+    // {
+    //   link: "https://material-ui.com/",
+    //   imgAltText: "Material-UI",
+    //   imgSrc: L_MATERIALUI,
+    //   skillName: "Material-UI",
+    // },
+    // {
+    //   link: "https://react-bootstrap.github.io/",
+    //   imgAltText: "React Bootstrap",
+    //   imgSrc: L_REACT_BOOTSTRAP,
+    //   skillName: "React Bootstrap",
+    // },
+    // {
+    //   link: "https://styled-components.com/",
+    //   imgAltText: "styled-components",
+    //   imgSrc: L_STYLED_COMPONENTS,
+    //   skillName: "styled-components",
+    // },
+    // {
+    //   link: "https://angular.io/",
+    //   imgAltText: "angular",
+    //   imgSrc: L_ANGULAR,
+    //   skillName: "Angular",
+    // },
+    // {
+    //   link: "https://flutter.dev/",
+    //   imgAltText: "Flutter",
+    //   imgSrc: L_FLUTTER,
+    //   skillName: "Flutter",
+    // },
     {
       link: "https://developer.android.com/",
       imgAltText: "Android",
@@ -150,32 +179,80 @@ export const skills = {
       skillName: "Android",
     },
     {
-      link: "https://developer.apple.com/swift/",
+      link: "https:developer.apple.com/swift/",
       imgAltText: "IOS",
       imgSrc: L_IOS,
       skillName: "IOS",
     },
+    {
+      link: "https://vuejs.org/",
+      imgAltText: "Vuejs",
+      imgSrc: L_VUE,
+      skillName: "Vuejs",
+    },
+  ],
+
+  CICDTools: [
+    {
+      link: "https://www.docker.com/",
+      imgAltText: "Docker",
+      imgSrc: L_DOCKER,
+      skillName: "Docker",
+    },
+    {
+      link: "https://docs.docker.com/compose/",
+      imgAltText: "Docker-compose",
+      imgSrc: L_DOCKERCOMPOSE,
+      skillName: "Docker-compose",
+    },
+    {
+      link: "https://kubernetes.io/es/",
+      imgAltText: "Kubernetes",
+      imgSrc: L_KUBERNETES,
+      skillName: "Kubernetes",
+    },
+    {
+      link: "https://travis-ci.org/",
+      imgAltText: "Travis CI",
+      imgSrc: L_TRAVISCI,
+      skillName: "Travis CI",
+    },
+  ],
+
+  OS: [
+    {
+      link: "https://www.linux.com/",
+      imgAltText: "Linux",
+      imgSrc: L_LINUX,
+      skillName: "Linux",
+    },
+    {
+      link: "https://www.microsoft.com",
+      imgAltText: "Microsoft Windows",
+      imgSrc: L_WINDOWS,
+      skillName: "Microsoft Windows",
+    },
   ],
 
   backend: [
-    {
-      link: "https://nodejs.org/en/",
-      imgAltText: "Node.js",
-      imgSrc: L_NODE_JS,
-      skillName: "Node.js",
-    },
-    {
-      link: "https://expressjs.com/",
-      imgAltText: "Express",
-      imgSrc: L_EXPRESS,
-      skillName: "Express",
-    },
     {
       link: "https://www.djangoproject.com/",
       imgAltText: "Django",
       imgSrc: L_DJANGO,
       skillName: "Django",
     },
+    {
+      link: "https://nodejs.org/en/",
+      imgAltText: "Node.js",
+      imgSrc: L_NODE_JS,
+      skillName: "Node.js",
+    },
+    // {
+    //   link: "https://expressjs.com/",
+    //   imgAltText: "Express",
+    //   imgSrc: L_EXPRESS,
+    //   skillName: "Express",
+    // },
     // {
     //   link: "https://flask.palletsprojects.com/",
     //   imgAltText: "Flask",
@@ -194,12 +271,12 @@ export const skills = {
       imgSrc: L_NESTJS,
       skillName: "NestJS",
     },
-    {
-      link: "https://spring.io/",
-      imgAltText: "Spring",
-      imgSrc: L_SPRING,
-      skillName: "Spring",
-    },
+    // {
+    //   link: "https://spring.io/",
+    //   imgAltText: "Spring",
+    //   imgSrc: L_SPRING,
+    //   skillName: "Spring",
+    // },
     {
       link: "https://www.arduino.cc/",
       imgAltText: "Arduino",
@@ -239,15 +316,70 @@ export const skills = {
       skillName: "PythonAnyWhere",
     },
   ],
-  erp: [
+
+  versionControl: [
     {
-      link: "https://www.sap.com/latinamerica/index.html",
-      imgAltText: "SAP",
-      imgSrc: L_SAP,
-      skillName: "SAP R/3",
+      link: "https://git-scm.com/",
+      imgAltText: "Git / GitHub/ GitLab",
+      imgSrc: L_GIT,
+      skillName: "Git / GitHub / GitLab",
+    },
+    {
+      link: "https://www.mercurial-scm.org/",
+      imgAltText: "Mercurial",
+      imgSrc: L_MERCURIAL,
+      skillName: "Mercurial",
     },
   ],
+
+  DATA_ANALYTICS: [
+    {
+      link: "https://en.wikipedia.org/wiki/Business_intelligence",
+      imgAltText: "Business Intelligence",
+      imgSrc: L_BI,
+      skillName: "Business Intelligence",
+    },
+    {
+      link: "https://en.wikipedia.org/wiki/Machine_learning",
+      imgAltText: "Machine Learning",
+      imgSrc: L_ML,
+      skillName: "Machine Learning",
+    },
+    {
+      link: "https://scikit-learn.org/stable/",
+      imgAltText: "SciKit-Learn",
+      imgSrc: L_SCIKITLEARN,
+      skillName: "SciKit-Learn",
+    },
+    {
+      link: "https://numpy.org/",
+      imgAltText: "NumPy",
+      imgSrc: L_NUMPY,
+      skillName: "NumPy",
+    },
+    {
+      link: "https://pandas.pydata.org/",
+      imgAltText: "Pandas",
+      imgSrc: L_PANDAS,
+      skillName: "Pandas",
+    },
+  ],
+
+  // erp: [
+  //   {
+  //     link: "https://www.sap.com/latinamerica/index.html",
+  //     imgAltText: "SAP",
+  //     imgSrc: L_SAP,
+  //     skillName: "SAP R/3",
+  //   },
+  // ],
   programmingLanguages: [
+    {
+      link: "https://www.python.org/",
+      imgAltText: "Python",
+      imgSrc: L_PYTHON,
+      skillName: "Python",
+    },
     {
       link: "https://www.javascript.com/",
       imgAltText: "JavaScript",
@@ -259,12 +391,6 @@ export const skills = {
       imgAltText: "TypeScript",
       imgSrc: L_TYPESCRIPT,
       skillName: "TypeScript",
-    },
-    {
-      link: "https://www.python.org/",
-      imgAltText: "Python",
-      imgSrc: L_PYTHON,
-      skillName: "Python",
     },
     // {
     //   link: "https://golang.org/",
@@ -279,7 +405,7 @@ export const skills = {
       skillName: "Java",
     },
     {
-      link: "https://www.apple.com/es/swift/",
+      link: "https:www.apple.com/es/swift/",
       imgAltText: "Swift",
       imgSrc: L_SWIFT,
       skillName: "Swift",
@@ -291,11 +417,17 @@ export const skills = {
       skillName: "PHP",
     },
     {
-      link: "https://docs.microsoft.com/en-us/dotnet/csharp/",
-      imgAltText: "C#",
-      imgSrc: L_C,
-      skillName: "C#",
+      link: "https://www.shellscript.sh/",
+      imgAltText: "SHELL",
+      imgSrc: L_SHELL,
+      skillName: "Bash - Shell Scripting",
     },
+    // {
+    //   link: "https://docs.microsoft.com/en-us/dotnet/csharp/",
+    //   imgAltText: "C#",
+    //   imgSrc: L_C,
+    //   skillName: "C#",
+    // },
   ],
   databases: [
     {
@@ -305,10 +437,10 @@ export const skills = {
       skillName: "PostgreSQL",
     },
     {
-      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
-      imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
+      link: "https://www.mysql.com/",
+      imgAltText: "MySQL",
+      imgSrc: L_MYSQL,
+      skillName: "MySQL",
     },
     {
       link: "https://www.mongodb.com/",
@@ -323,18 +455,32 @@ export const skills = {
       skillName: "Firebase",
     },
   ],
-  versionControl: [
+
+  Testing_clean_code: [
     {
-      link: "https://git-scm.com/",
-      imgAltText: "GIT",
-      imgSrc: L_GIT,
-      skillName: "GIT",
+      link: "https://jestjs.io/",
+      imgAltText: "JEST",
+      imgSrc: L_JEST,
+      skillName: "JEST",
     },
     {
-      link: "https://www.mercurial-scm.org/",
-      imgAltText: "Mercurial",
-      imgSrc: L_MERCURIAL,
-      skillName: "Mercurial",
+      link: "https://en.wikipedia.org/wiki/Test-driven_development",
+      imgAltText: "TDD",
+      imgSrc: L_TDD,
+      skillName: "TDD",
+    },
+    {
+      link: "https://en.wikipedia.org/wiki/Object-oriented_programming",
+      imgAltText: "Object Oriented Programming",
+      imgSrc: L_OOP,
+      skillName: "OOP",
+    },
+    {
+      link: "https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design",
+      imgAltText: "SOLID Principles",
+      imgSrc: L_SOLID,
+      skillName: "SOLID Principles",
     },
   ],
+
 };
