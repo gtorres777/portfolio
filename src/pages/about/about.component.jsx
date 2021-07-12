@@ -45,7 +45,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/file/d/179g_19f3Cd6UYGbQL1MgxxLFGWsE0O9J/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://getonbrd-prod.s3.amazonaws.com/uploads/cv/370722847c77d0e68f36905a4d38745f/Torres_Diaz_Gustavo.pdf?X-Amz-Expires=86400&X-Amz-Date=20210712T050003Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJT5MYUSOEN4SITVA%2F20210712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=75c3563f4c2281d5d2f96c9c33e9acd60c58831c4912eea870e87b864dc4c8e8" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume (CV)
                       </Button>
