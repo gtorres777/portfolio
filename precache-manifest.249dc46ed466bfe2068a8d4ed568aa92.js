@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b952068beae4f002391688d4121dbb26",
+    "revision": "acfe60ee4cb8383aed2e0b69712c498d",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "fac6773627e4ff9665a2",
+    "revision": "78822602aa2cdea851ee",
     "url": "/portfolio/static/css/main.1a93b4d7.chunk.css"
   },
   {
-    "revision": "369f2712f8974aa6a32e",
-    "url": "/portfolio/static/js/2.1463ce3c.chunk.js"
+    "revision": "6b8d386dee488d33508c",
+    "url": "/portfolio/static/js/2.93ffd3fc.chunk.js"
   },
   {
-    "revision": "ccea2db2d8b3fa845702f94d2bad54c8",
-    "url": "/portfolio/static/js/2.1463ce3c.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/portfolio/static/js/2.93ffd3fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fac6773627e4ff9665a2",
-    "url": "/portfolio/static/js/main.94f63b3c.chunk.js"
+    "revision": "78822602aa2cdea851ee",
+    "url": "/portfolio/static/js/main.0414d585.chunk.js"
   },
   {
     "revision": "83dc2e69eb0b3e275588",
@@ -28,20 +28,52 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/BI.27be61ee.png"
   },
   {
+    "revision": "3f729023d78ec83202da2e4e46b7fd9f",
+    "url": "/portfolio/static/media/Google.3f729023.svg"
+  },
+  {
+    "revision": "741b0a12974a16eb4113a84b21f1a89e",
+    "url": "/portfolio/static/media/Grafana.741b0a12.svg"
+  },
+  {
+    "revision": "233e7b2ff02d48b60cbb2a7a17ee9f49",
+    "url": "/portfolio/static/media/Groovy.233e7b2f.svg"
+  },
+  {
+    "revision": "b2527f0153d8d2167102e3cfae3fa108",
+    "url": "/portfolio/static/media/Jenkins.b2527f01.svg"
+  },
+  {
     "revision": "644b0452de6bd17e133621c2e725538e",
     "url": "/portfolio/static/media/ML.644b0452.png"
+  },
+  {
+    "revision": "074db273ef932a67d91b58e7ba1f49d3",
+    "url": "/portfolio/static/media/Prometheus.074db273.svg"
   },
   {
     "revision": "552c3018b14e06fad7e1b4b0dfc2411f",
     "url": "/portfolio/static/media/TDD.552c3018.png"
   },
   {
+    "revision": "22278ed1d7d27d11e56faeec6ada50fb",
+    "url": "/portfolio/static/media/Terraform.22278ed1.svg"
+  },
+  {
     "revision": "14ed07e698c69df6da8744861c0ef7cd",
     "url": "/portfolio/static/media/android.14ed07e6.svg"
   },
   {
+    "revision": "bc4ccea581aa8310a1a047e2a06768ba",
+    "url": "/portfolio/static/media/applaudo.bc4ccea5.jpg"
+  },
+  {
     "revision": "866d6f528a73a65803505fec2f04355e",
     "url": "/portfolio/static/media/arduino.866d6f52.svg"
+  },
+  {
+    "revision": "ee779dc5b68a2e0bec46e6e10ac43312",
+    "url": "/portfolio/static/media/argo.ee779dc5.svg"
   },
   {
     "revision": "fdff4014b22f67787c176c6aa52890a7",
@@ -62,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1ea3655b6fad46d80c4a45c948de57e0",
     "url": "/portfolio/static/media/ciim.1ea3655b.svg"
+  },
+  {
+    "revision": "884ed986bbc940daf0edd57a0fa855c2",
+    "url": "/portfolio/static/media/cloudwatch.884ed986.svg"
   },
   {
     "revision": "3aae6250842b6030986da0d6aebb6926",
@@ -100,6 +136,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/github.567f006b.svg"
   },
   {
+    "revision": "d031bcb15b6251937be95b1fbcb4f540",
+    "url": "/portfolio/static/media/githubactions.d031bcb1.svg"
+  },
+  {
+    "revision": "fd5aac7c1efe5bea4b607a959f562a59",
+    "url": "/portfolio/static/media/helm.fd5aac7c.svg"
+  },
+  {
     "revision": "b38ff61aa327fbdc24f7b1dad7d04d1a",
     "url": "/portfolio/static/media/heroku.b38ff61a.svg"
   },
@@ -110,6 +154,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a73ff5f0e4b4b866f0ac994248d92695",
     "url": "/portfolio/static/media/ios-2.a73ff5f0.svg"
+  },
+  {
+    "revision": "6d2b873ec81acc41dc7193cc8a070527",
+    "url": "/portfolio/static/media/istio.6d2b873e.svg"
   },
   {
     "revision": "2d2e31cc63a96c7e6044f52d30fd21b9",
