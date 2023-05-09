@@ -31,6 +31,12 @@ import L_DOCKER from "../../assets/img/skills/docker.svg";
 import L_DOCKERCOMPOSE from "../../assets/img/skills/docker_compose.png";
 import L_KUBERNETES from "../../assets/img/skills/kubernetes.svg";
 import L_TRAVISCI from "../../assets/img/skills/travis_ci.svg";
+import L_JENKINS from "../../assets/img/skills/Jenkins.svg";
+import L_TERRAFORM from "../../assets/img/skills/Terraform.svg";
+import L_GITHUB_ACTIONS from "../../assets/img/skills/githubactions.svg";
+import L_HELM from "../../assets/img/skills/helm.svg";
+import L_ARGOCD from "../../assets/img/skills/argo.svg";
+import L_ISTIO from "../../assets/img/skills/istio.svg";
 
 //OS
 import L_LINUX from "../../assets/img/skills/linux.svg";
@@ -43,6 +49,7 @@ import L_ARDUINO from "../../assets/img/skills/arduino.svg";
 
 //hosting
 import L_AWS from "../../assets/img/skills/aws.svg";
+import L_GCP from "../../assets/img/skills/Google.svg";
 import L_PYTHONANYWHERE from "../../assets/img/skills/pythonanywhere.svg";
 
 //Version control
@@ -55,9 +62,14 @@ import L_SCIKITLEARN from "../../assets/img/skills/sklearn.png";
 import L_NUMPY from "../../assets/img/skills/numpy.svg";
 import L_PANDAS from "../../assets/img/skills/pandas.png";
 
+//Monitoring & Alerting
+import L_PROMETHEUS from "../../assets/img/skills/Prometheus.svg";
+import L_GRAFANA from "../../assets/img/skills/Grafana.svg";
+import L_CLOUDWATCH from "../../assets/img/skills/cloudwatch.svg";
 
 //Languages
 import L_PHP from "../../assets/img/skills/php.svg";
+import L_GROOVY from "../../assets/img/skills/Groovy.svg";
 import L_SHELL from "../../assets/img/skills/shell.png";
 
 //DB
@@ -72,19 +84,18 @@ import L_SOLID from "../../assets/img/skills/SOLID.png";
 
 export const skills = {
   frontend: [
-    {
-      link: "https://en.wikipedia.org/wiki/HTML5",
-      imgAltText: "HTML 5",
-      imgSrc: L_HTML5,
-      skillName: "HTML5",
-    },
-    {
-      link:
-        "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
-      imgAltText: "CSS 3",
-      imgSrc: L_CSS3,
-      skillName: "CSS3",
-    },
+    // {
+    //   link: "https://en.wikipedia.org/wiki/HTML5",
+    //   imgAltText: "HTML 5",
+    //   imgSrc: L_HTML5,
+    //   skillName: "HTML5",
+    // },
+    // { link:
+    //     "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
+    //   imgAltText: "CSS 3",
+    //   imgSrc: L_CSS3,
+    //   skillName: "CSS3",
+    // },
     // {
     //   link: "https://www.javascript.com/",
     //   imgAltText: "JavaScript",
@@ -139,12 +150,12 @@ export const skills = {
     //   imgSrc: L_STYLED_COMPONENTS,
     //   skillName: "styled-components",
     // },
-    {
-      link: "https://developer.android.com/",
-      imgAltText: "Android",
-      imgSrc: L_ANDROID,
-      skillName: "Android",
-    },
+    // {
+    //   link: "https://developer.android.com/",
+    //   imgAltText: "Android",
+    //   imgSrc: L_ANDROID,
+    //   skillName: "Android",
+    // },
   ],
 
   CICDTools: [
@@ -171,6 +182,42 @@ export const skills = {
       imgAltText: "Travis CI",
       imgSrc: L_TRAVISCI,
       skillName: "Travis CI",
+    },
+    {
+      link: "https://travis-ci.org/",
+      imgAltText: "Jenkins",
+      imgSrc: L_JENKINS,
+      skillName: "Jenkins",
+    },
+    {
+      link: "https://travis-ci.org/",
+      imgAltText: "Github ACtions",
+      imgSrc: L_GITHUB_ACTIONS,
+      skillName: "Github ACtions",
+    },
+    {
+      link: "https://travis-ci.org/",
+      imgAltText: "Terraform",
+      imgSrc: L_TERRAFORM,
+      skillName: "Terraform",
+    },
+    {
+      link: "https://travis-ci.org/",
+      imgAltText: "Helm",
+      imgSrc: L_HELM,
+      skillName: "HELM",
+    },
+    {
+      link: "https://travis-ci.org/",
+      imgAltText: "ArgoCD",
+      imgSrc: L_ARGOCD,
+      skillName: "ArgoCD",
+    },
+    {
+      link: "https://travis-ci.org/",
+      imgAltText: "Istio",
+      imgSrc: L_ISTIO,
+      skillName: "Istio",
     },
   ],
 
@@ -214,12 +261,12 @@ export const skills = {
     //   imgSrc: L_FLASK,
     //   skillName: "Flask",
     // },
-    {
-      link: "https://laravel.com/",
-      imgAltText: "Laravel",
-      imgSrc: L_LARAVEL,
-      skillName: "Laravel",
-    },
+    // {
+    //   link: "https://laravel.com/",
+    //   imgAltText: "Laravel",
+    //   imgSrc: L_LARAVEL,
+    //   skillName: "Laravel",
+    // },
     {
       link: "https://nestjs.com/",
       imgAltText: "NestJS",
@@ -235,6 +282,18 @@ export const skills = {
   ],
   hostingPlatforms: [
     {
+      link: "https://aws.amazon.com/es/",
+      imgAltText: "Amazon Web Services",
+      imgSrc: L_AWS,
+      skillName: "Amazon Web Services",
+    },
+    {
+      link: "https://aws.amazon.com/es/",
+      imgAltText: "Google Cloud Platform",
+      imgSrc: L_GCP,
+      skillName: "Google Cloud Platform",
+    },
+    {
       link: "https://www.heroku.com/",
       imgAltText: "Heroku",
       imgSrc: L_HEROKU,
@@ -246,18 +305,12 @@ export const skills = {
     //   imgSrc: L_DIGITAL_OCEAN,
     //   skillName: "Digital Ocean",
     // },
-    {
-      link: "https://aws.amazon.com/es/",
-      imgAltText: "Amazon Web Services",
-      imgSrc: L_AWS,
-      skillName: "Amazon Web Services",
-    },
-    {
-      link: "https://pages.github.com/",
-      imgAltText: "GitHub Pages",
-      imgSrc: L_GITHUB_PAGES,
-      skillName: "GitHub Pages",
-    },
+    // {
+    //   link: "https://pages.github.com/",
+    //   imgAltText: "GitHub Pages",
+    //   imgSrc: L_GITHUB_PAGES,
+    //   skillName: "GitHub Pages",
+    // },
     {
       link: "https://www.pythonanywhere.com/",
       imgAltText: "PYTHONANYWHERE",
@@ -278,6 +331,27 @@ export const skills = {
       imgAltText: "Mercurial",
       imgSrc: L_MERCURIAL,
       skillName: "Mercurial",
+    },
+  ],
+
+  Monitoring: [
+    {
+      link: "https://git-scm.com/",
+      imgAltText: "Git / GitHub/ GitLab",
+      imgSrc: L_PROMETHEUS,
+      skillName: "Prometheus",
+    },
+    {
+      link: "https://www.mercurial-scm.org/",
+      imgAltText: "Grafana",
+      imgSrc: L_GRAFANA,
+      skillName: "Grafana",
+    },
+    {
+      link: "https://www.mercurial-scm.org/",
+      imgAltText: "Cloudwatch",
+      imgSrc: L_CLOUDWATCH,
+      skillName: "Cloudwatch",
     },
   ],
 
@@ -335,9 +409,9 @@ export const skills = {
     },
     {
       link: "https://www.php.net/",
-      imgAltText: "PHP",
-      imgSrc: L_PHP,
-      skillName: "PHP",
+      imgAltText: "GROOVY",
+      imgSrc: L_GROOVY,
+      skillName: "Groovy",
     },
     {
       link: "https://www.shellscript.sh/",

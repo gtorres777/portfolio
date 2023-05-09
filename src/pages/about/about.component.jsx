@@ -21,19 +21,21 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Gustavo Torres Díaz.</strong>
-                A passionate programmer and biotechnologist, born and brought up in Perú.
-                I am a Full stack Web and Mobile Developer, responsible, perseverant, easy to work
+                Hi there! I am <strong>&nbsp;Gustavo Adolfo Torres Díaz.</strong>
+                A passionate DevOps engineer and Biotech engineer, born and brought up in Perú.
+                I am self motivated, responsible, perseverant, easy to work
                 in team, committed and creative.
                 <br />
                 In 2017, I successfully completed my Biotechnological Engineering career.
                 <br />
                 And in 2020 I sucessfully finished my career in Software Design and Systems Integration.
                 <br />
-                I would like to join a software development team where I can continue to learn and grow professionally
-                applying all the knowledge acquired in management, biotechnology and software development during my
+                I have experience in DevOps roles designing, implementing, and maintaining infrastructure in the cloud using services from AWS and GCP. 
+                <br />
+                I would like to join a company where where I can continue to learn and grow professionally
+                applying all the knowledge acquired in DevOps and Cloud management, biotechnology and software development during my
                 formative years.
-                <br />I am passionate about the new technologies that come out day by day as Machine Learning and Bioinformatics,
+                <br />I am passionate about the new technologies that come out day by day as Machine Learning, Blockchain and Bioinformatics,
                 and being able to be at the forefront with these.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
@@ -45,7 +47,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://getonbrd-prod.s3.amazonaws.com/uploads/cv/370722847c77d0e68f36905a4d38745f/Torres_Diaz_Gustavo.pdf?X-Amz-Expires=86400&X-Amz-Date=20210712T050003Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJT5MYUSOEN4SITVA%2F20210712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=75c3563f4c2281d5d2f96c9c33e9acd60c58831c4912eea870e87b864dc4c8e8" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1MKUxY97dIOx01qD3Yt7n3CMdqmGO3Am6/view?usp=share_link" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume (CV)
                       </Button>
